@@ -20,6 +20,7 @@ class expense_management(models.Model):
     
     def __str__(self):
         return self.expense
+<<<<<<< HEAD
 
 
 class expense_management(models.Model):
@@ -41,3 +42,5 @@ class expense_management(models.Model):
     
     def __str__(self):
         return self.expense
+=======
+>>>>>>> 5066d59ed212a9fe790e1024a2ffa88a60418fad
