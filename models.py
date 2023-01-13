@@ -20,27 +20,4 @@ class expense_management(models.Model):
     
     def __str__(self):
         return self.expense
-<<<<<<< HEAD
 
-
-class expense_management(models.Model):
-    expense=models.CharField(max_length=100)
-    date=models.DateTimeField()
-    amount=models.IntegerField()
-    description=models.TextField(max_length=1300)
-    Sign_In=models.ForeignKey(Sign_In, blank=True,null=True,on_delete=models.CASCADE)
-    
-    def __str__(self):
-        return self.expense
-
-class expense_management(models.Model):
-    expense=models.CharField(max_length=100)
-    date=models.DateTimeField()
-    amount=models.IntegerField()
-    description=models.TextField(max_length=1300)
-    Sign_In=models.ForeignKey(Sign_In, blank=True,null=True,on_delete=models.CASCADE)
-    
-    def __str__(self):
-        return self.expense
-=======
->>>>>>> 5066d59ed212a9fe790e1024a2ffa88a60418fad
